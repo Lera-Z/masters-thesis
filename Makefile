@@ -1,17 +1,17 @@
 .PHONY: clean clean-knits
 
 pdf:
-	Rscript -e 'options(bookdown.render.file_scope = FALSE); bookdown::render_book("index.Rmd", output_format = "bookdown::pdf_book")'
+	Rscript -e 'options(bookdown.render.file_scope = FALSE); bookdown::render_book("Index.Rmd", output_format = "bookdown::pdf_book")'
 	Rscript -e 'browseURL("docs/_main.pdf")'
 	rm -f *.log *.mtc* *.maf *.aux *.bbl *.blg *.xml
 
 gitbook:
-	Rscript -e 'options(bookdown.render.file_scope = FALSE); bookdown::render_book("index.Rmd", output_format = "bookdown::gitbook")'
+	Rscript -e 'options(bookdown.render.file_scope = FALSE); bookdown::render_book("Index.Rmd", output_format = "bookdown::gitbook")'
 	Rscript -e 'browseURL("docs/introduction.html")'
 	rm -f *.log *.mtc* *.maf *.aux *.bbl *.blg *.xml
 
 word:
-	Rscript -e 'options(bookdown.render.file_scope = FALSE); bookdown::render_book("index.Rmd", output_format = "bookdown::word_document2")'
+	Rscript -e 'options(bookdown.render.file_scope = FALSE); bookdown::render_book("Index.Rmd", output_format = "bookdown::word_document2")'
 	Rscript -e 'browseURL("docs/_main.docx")'
 	rm -f *.log *.mtc* *.maf *.aux *.bbl *.blg *.xml
 

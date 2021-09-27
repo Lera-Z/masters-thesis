@@ -82,7 +82,7 @@
 % LOGOS
 %
 
-\def\logo{{\includegraphics[width=32mm]{figures/university_logo.png}}}
+\def\logo{{\includegraphics[width=100mm]{figures/university_logo.png}}}
 
 
 %

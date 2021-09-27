@@ -1,0 +1,20 @@
+---
+output:
+  bookdown::pdf_document2:
+    template: ../templates/brief_template.tex
+    pandoc_args: [--wrap=none]
+  bookdown::word_document2: default
+  bookdown::html_document2: default
+documentclass: book
+bibliography: references/refs.bib
+---
+
+# **Materials and Methods** {#chap:materials-methods}
+
+\minitoc <!-- this will include a mini table of contents-->
+
+\chaptermark{Materials and Methods}
+
+Your text here!
+
+\titlespacing{\chapter}{0pt}{0pt}{35pt}

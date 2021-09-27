@@ -1,19 +1,10 @@
 # check for basic packages required
 if (!("bookdown" %in% installed.packages()))
-  install.packages("knitr", repos = "http://cran.rstudio.com")
+  install.packages("bookdown", repos = "http://cran.rstudio.com")
 
 # check if the right packages are installed to create the chunk options
 if (!("knitr" %in% installed.packages()))
   install.packages("knitr", repos = "http://cran.rstudio.com")
-
-if (!("kableExtra" %in% installed.packages()))
-  install.packages("kableExtra", repos = "http://cran.rstudio.com")
-
-if (!("dplyr" %in% installed.packages()))
-  install.packages("dplyr", repos = "http://cran.rstudio.com")
-
-library(kableExtra)
-library(dplyr)
 
 
 ##### add chunk options for PDF output ####
