@@ -94,7 +94,7 @@ MET can be constructed using a process that depends only on the “parity count�
 ```{r out.width = "100%", fig.align='center', fig.cap="(ref:METcapture)", label="MET", echo=FALSE}
 include_graphics('figures/Figure_1.png') # Path to the figure
 ```
-(ref:METcapture) *Top: Maximum entropy textures samples of the four types of multipoint correlations along with their corresponding subtypes. Y-axis represents correlation strength. Taken from @Victor2015-pw; (B) Some examples of naturalistic textures. Taken from @Ziemba2016-dl.*
+(ref:METcapture) *Top: Maximum entropy textures samples of the four types of multipoint correlations along with their corresponding subtypes. Y-axis represents correlation strength. Taken from @Victor2015-pw; Bottom: Some examples of naturalistic textures. Taken from @Ziemba2016-dl.*
 
 \vspace{5mm}
 
@@ -139,7 +139,7 @@ To summarize, higher-order correlations that are obtained from the gliders that 
 
 @Victor2012-dk provided an initial account of human sensitivity to image statistics of different order using MET. The subjects were instructed to complete a forced-choice segmentation task: identify the position of the target laid over a background (*Figure* \@ref(fig:TextureVictor)). The target was distinguished from the remainder of the array by its statistics.
 
-```{r out.width = "100%", fig.align='center', fig.cap="(ref:TextureVictor-capture)", label="TextureVictor", echo=FALSE}
+```{r out.width = "80%", fig.align='center', fig.cap="(ref:TextureVictor-capture)", label="TextureVictor", echo=FALSE}
 include_graphics('figures/Figure_3.png') # Path to the figure
 ```
 (ref:TextureVictor-capture) *Examples of textures and a presentation pipeline used in @Victor2012-dk. Taken from @Victor2012-dk.*
@@ -147,7 +147,7 @@ include_graphics('figures/Figure_3.png') # Path to the figure
 
 @Victor2012-dk demonstrated that, compared to noise, human sensitivity to multipoint correlations is rank-ordered in a particular way: namely, humans are more sensitive to first-order correlations (gamma), followed by second- (beta), fourth – (alpha) and third-order (theta) correlations (*Figure* \@ref(fig:HumanSens)).
 
-```{r out.width = "100%", fig.align='center', fig.cap="(ref:HumanSens-capture)", label="HumanSens", echo=FALSE}
+```{r out.width = "60%", fig.align='center', fig.cap="(ref:HumanSens-capture)", label="HumanSens", echo=FALSE}
 include_graphics('figures/Figure_4.png') # Path to the figure
 ```
 (ref:HumanSens-capture) *Human sensitivity to 1- to 4-point correlations obtained by Victor and Conte (2012). Colored dots indicate subjects. Taken from @Victor2012-dk.*
@@ -157,7 +157,7 @@ include_graphics('figures/Figure_4.png') # Path to the figure
 Adding further evidence to this line of research, the work of @Hermundstad2014-gk put together the findings obtained by @Tkacik2010-td and @Victor2012-dk, confirming the experimental results regarding human sensitivity to image statistics. Hermundstad and colleagues selected informative correlations and investigated how resourses were allocated to the different statistics within this informative feature space. First, they performed the analysis of natural images to define a set of image statistics present in them, focusing on a 2×2 square glider. Ten unique combinations were found to describe correlations present in such a glider  (*Figure* \@ref(fig:Hermunstad)). These ten combinations corresponded to ten image statistics: one first-order statistic (the average luminance), four second-order statistics (pairwise correlations of vertically, horizontally or diagonally positioned pixels), four third-order statistics (correlations between three points in the glider) and one fourth-order statistic (correlation between all four points in the glider). The authors found that degree of variation of these statistics was rank-ordered: the most variable correlations are pairwise (beta) correlations in the cardinal directions, followed by pairwise correlations in the oblique directions, followed by fourth-order correlations (alpha) and, finally, by third-order correlations (theta). Importantly, such variance ranking was not found in white noise textures, demonstrating that this ranking is a feature of natural images only.
 
 
-```{r out.width = "100%", fig.align='center', fig.cap="(ref:Hermunstad-capture)", label="Hermunstad", echo=FALSE}
+```{r out.width = "80%", fig.align='center', fig.cap="(ref:Hermunstad-capture)", label="Hermunstad", echo=FALSE}
 include_graphics('figures/Figure_5.png') # Path to the figure
 ```
 (ref:Hermunstad-capture) *Ten image statistics identified in natural images by @Hermundstad2014-gk. Taken from @Hermundstad2014-gk.*
@@ -167,7 +167,7 @@ include_graphics('figures/Figure_5.png') # Path to the figure
 
 Next, Hermundstad and colleagues conducted an experiment to investigate human sensitivity to the abovementioned image statistics. The experiment was based on the setup of one of the previous studies of the group, @Victor2012-dk. Hermundstad and colleagues overlaid a target texture on a background and instructed participants to determine the location of the target texture. To ensure that the response was elicited by figure/background segmentation, two kinds of stimuli were used: 1) the target had a nonzero value of a statistic, and the background had a random distribution of black and white pixels (white noise); 2) the target was random and the background had a nonzero value of a statistic. The results showed that _**humans are sensitive to these statistics in the same rank-order as their variance**_, supporting the efficient coding hypothesis (*Figure* \@ref(fig:Hermunstad2)). @Victor2015-pw performed an analogous experiment and confirmed the results regarding sensitivity to multipoint correlations that were obtained by @Hermundstad2014-gk.
 
-```{r out.width = "100%", fig.align='center', fig.cap="(ref:Hermunstad2-capture)", label="Hermunstad2", echo=FALSE}
+```{r out.width = "60%", fig.align='center', fig.cap="(ref:Hermunstad2-capture)", label="Hermunstad2", echo=FALSE}
 include_graphics('figures/Figure_6.png') # Path to the figure
 ```
 (ref:Hermunstad2-capture) *Degree of variation in different statistics of natural images (circles) and human sensitivity to these statistics (squares). R denotes the patch size and N denotes the block-average factor used during image preprocessing. Taken from @Hermundstad2014-gk.*
@@ -192,7 +192,7 @@ Animal models offer a valuable opportunity to gain insight into neural underpinn
 
 Monkey is the most commonly used model to probe different aspects of visual perception. One of the first studies conducted in monkeys to demonstrate that the efficient coding principle has a neural basis in the visual cortex was the work of @Yu2015-cp. Based on the result of @Hermundstad2014-gk, authors used single-unit recordings in macaque V1 and V2 areas of the visual cortex to determine where sensitivity to different multipoint correlations arises. The stimuli were 1) random noise textures; 2) six structured sets of stimuli (*Figure* \@ref(fig:YuStim)): the ‘even’ and ‘odd’ sets isolate the opposite extremes of the visually salient four-point correlation ($\alpha$, alpha). The ‘white triangle’ and ‘black triangle’ sets isolate the extremes of the visually salient three-point correlation ($\theta$, theta). The ‘wye’ and ‘foot’ sets had multipoint correlations that are not visually salient [@Victor1991-ds] because they are predictable from lower-order correlations [@Tkacik2010-td]. Yu et al. found that in the supragranular layers of V2 neuronal sensitivity to salient three- and four-point correlations (as defined in @Victor1991-ds) was very pronounced, while V1 neurons virtually lack such sensitivity. 
 
-```{r out.width = "100%", fig.align='center', fig.cap="(ref:YuStim-capture)", label="YuStim", echo=FALSE}
+```{r out.width = "80%", fig.align='center', fig.cap="(ref:YuStim-capture)", label="YuStim", echo=FALSE}
 include_graphics('figures/Figure_7.png') # Path to the figure
 ```
 (ref:YuStim-capture) *Image statistics (first row) and the corresponding textures used in the study by @Yu2015-cp (second row). Taken from @Yu2015-cp.*
@@ -201,7 +201,7 @@ include_graphics('figures/Figure_7.png') # Path to the figure
 
 The findings of @Yu2015-cp were supported by other studies that probed monkey visual cortex using texture-like stimuli. These stimuli differ from MET described in the current work in that higher-order image statistics they contain consist of various combinations of Gabor-like filter responces with different orientations and positions (*Figure* \@ref(fig:OkazavaModel)) instead of multipoint correlations directly obtained from pixel gliders. Nevertheless, they support the main claim of @Yu2015-cp: along the ventral stream there is an increase of selectivity for complex contours and higher-level features. An example of these are the studies that used naturalistic textures introduced in @portilla2000parametric to probe primates ventral stream, expanding the work done on humans (e.g. @Freeman2013-nt). @Ziemba2016-dl used naturalistic texture stimuli that exactly represent the statistics of a predefined texture (therefore, should be perceptually the same) but are markedly different in arrangement of their local features – in simple words, they seem visually different but are statistically the same. The authors recorded from the V1 and V2 neurons of anesthetized macaque monkeys.  They found that neurons in V2 are more tolerant and selective than V1 neurons for the higher-order image statistics.  Another work, conducted by @Okazawa2017-dj using naturalistic textures, compared responses of areas V2 and V4 to higher-order image statistics and showed that both V2 and V4 respond to higher-order statistics, but V4 demonstrated slightly stronger sensitivity to them. However, the relationship between sensitivity and visual hierarchy might be more complex: @Ziemba2019-ns conducted a study using multiunit recordings in monkey V1 and V2 areas. They found that sensitivity of V1 to image statistics seems to be higher than reported from the studies that used single unit recordings, although still less than in V2. The supragranular and infragranular layers of V1 were the ones that exhibited such sensitivity. Ziemba and colleagues suggest that this phenomenon is due to feedback from V2 to V1, because sensitivity to textures emerged first in V2, followed by the supragranular and infragranular layers of V1, and finally in the granular layers of V1.
 
-```{r out.width = "100%", fig.align='center', fig.cap="(ref:OkazavaModel-capture)", label="OkazavaModel", echo=FALSE}
+```{r out.width = "50%", fig.align='center', fig.cap="(ref:OkazavaModel-capture)", label="OkazavaModel", echo=FALSE}
 include_graphics('figures/Figure_8.png') # Path to the figure
 ```
 (ref:OkazavaModel-capture) *A model describing the image features of naturalistic textures used in @Okazawa2017-dj. Taken from @Okazawa2017-dj*
@@ -229,7 +229,7 @@ include_graphics('figures/Figure_9.png') # Path to the figure
 
 Understanding the neural underpinnings of visual processing in rats requires a brief overview of the rat visual cortex organization. The main visual areas that make up the visual system in rats include area V1, the lateromedial area (area LM), the laterointermediate area (area LI), the laterolateral area (area LL), and the occipitotemporal cortex (area TO). The primary visual cortex (V1; *Figure* \@ref(fig:RatCortex)) is the largest and most well-studied cortical visual area in rodents, including rats. Information from the retina reaches area V1, located in the occipital cortex, via the dorsolateral geniculate nucleus (dLGN) of the thalamus (a feature typical to all mammalian visual systems; @Glickfeld2014-yh; @seabrook2017architecture; @Briggs2017-ek). Neurons in V1 have diverse response properties that take a leading role in image, orientation, and motion discrimination tasks [@Petruno2013-nw]. They have orientation selectivity, some degree of direction selectivity, complex contrast sensitivity and diverse receptive field organization [@Girman1999-kn].
 
-```{r out.width = "100%", fig.align='center', fig.cap="(ref:RatCortex-capture)", label="RatCortex", echo=FALSE}
+```{r out.width = "50%", fig.align='center', fig.cap="(ref:RatCortex-capture)", label="RatCortex", echo=FALSE}
 include_graphics('figures/Figure_10.png') # Path to the figure
 ```
 (ref:RatCortex-capture) *Anatomical position of the five main visual areas in rats, marked in color. Taken from @Vermaercke2015-sg.*

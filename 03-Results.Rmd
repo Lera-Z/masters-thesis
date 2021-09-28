@@ -90,7 +90,7 @@ First multiunits' tuning curves were classified by the trend they exhibited with
 *Figure* \@ref(fig:GammaTC) shows a summary of selective units for gamma statistic (1-point correlations) in the two areas in question. 
 
 
-```{r out.width = "100%", fig.align='center', fig.cap="(ref:GammaTC-capture)", label="GammaTC", echo=FALSE}
+```{r out.width = "80%", fig.align='center', fig.cap="(ref:GammaTC-capture)", label="GammaTC", echo=FALSE}
 include_graphics('figures/Figure_22.png') # Path to the figure
 ```
 (ref:GammaTC-capture) *Top: Tuning curves for selective multiunits in area V1 divided by trend and the number of multiunits belonging to each trend group. Middle: Tuning curves for selective multiunits in area LL divided by trend and the number of multiunits belonging to each trend group. Bottom: Overall number of selective multiunits for areas V1 and LL.*
@@ -101,7 +101,7 @@ As shown in *Figure* \@ref(fig:GammaTC), both V1 and LL exhibit a similar trend 
 
 *Figure* \@ref(fig:BetaTC) shows a summary of selective units for beta statistic (2-point correlations).
 
-```{r out.width = "100%", fig.align='center', fig.cap="(ref:BetaTC-capture)", label="BetaTC", echo=FALSE}
+```{r out.width = "80%", fig.align='center', fig.cap="(ref:BetaTC-capture)", label="BetaTC", echo=FALSE}
 include_graphics('figures/Figure_23.png') # Path to the figure
 ```
 (ref:BetaTC-capture) *Top: Tuning curves for selective multiunits in area V1 divided by trend and the number of multiunits belonging to each trend group. Middle: Tuning curves for selective multiunits in area LL divided by trend and the number of multiunits belonging to each trend group. Bottom: Overall number of selective multiunits for areas V1 and LL.*
@@ -112,7 +112,7 @@ The results show that area V1 is sensitive to beta statistic in an increasing fa
 
 In *Figure* \@ref(fig:ThetaTC)  the tuning curves for selective multiunits for theta statistic are shown.
 
-```{r out.width = "100%", fig.align='center', fig.cap="(ref:ThetaTC-capture)", label="ThetaTC", echo=FALSE}
+```{r out.width = "80%", fig.align='center', fig.cap="(ref:ThetaTC-capture)", label="ThetaTC", echo=FALSE}
 include_graphics('figures/Figure_24.png') # Path to the figure
 ```
 (ref:ThetaTC-capture) *Top: Tuning curves for selective multiunits in area V1 divided by trend and the number of multiunits belonging to each trend group. Middle: Tuning curves for selective multiunits in area LL divided by trend and the number of multiunits belonging to each trend group. Bottom: Overall number of selective multiunits for areas V1 and LL.*
@@ -122,7 +122,7 @@ Unlike gamma and beta, neither V1 nor LL was highly sensitive to theta correlati
 \vspace{5mm}
 
 *Figure* \@ref(AlphaTC)  demonstrates a summary of tuning curve trends in the last, alpha statistic (4-point correlation).
-```{r out.width = "100%", fig.align='center', fig.cap="(ref:AlphaTC-capture)", label="AlphaTC", echo=FALSE}
+```{r out.width = "80%", fig.align='center', fig.cap="(ref:AlphaTC-capture)", label="AlphaTC", echo=FALSE}
 include_graphics('figures/Figure_25.png') # Path to the figure
 ```
 (ref:AlphaTC-capture) *Top: Tuning curves for selective multiunits in area V1 divided by trend and the number of multiunits belonging to each trend group. Middle: Tuning curves for selective multiunits in area LL divided by trend and the number of multiunits belonging to each trend group. Bottom: Overall number of selective multiunits for areas V1 and LL.*

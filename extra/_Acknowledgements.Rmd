@@ -1,11 +1,20 @@
-Put your acknowledgments here
+This thesis would not have been possible without the guidance and support of the Visual Neuroscience Lab in SISSA. I am grateful to Prof. Davide Zoccolan, head of the lab, for giving me this wonderful opportunity to be a part of the lab and supporting me on the way. I would also like to thank all the colleagues in the Visual Neuroscience Lab, especially Sogand, Laura, Silene, Paolo and Angelina, for making these difficult times better in all possible ways. I also thank Prof. Giorgio Vallortigara, my co-supervisor at the University of Trento, and Prof. Paola Sgadò, thesis examiner, for their guidance and attention. 
 
 \vspace{5mm}
 
-If you want a nice formatting, separate them with vspace 5mm as here above
+A special thank you goes to Riccardo, my friend, colleague and co-supervisor, for teaching me so many things, for patience, care and kindness at all times (and my apologies to you for the current page being the only one you do not have to correct!). To have a chance to learn from you has been a great luck. Your skills and incredible passion for science that goes hand in hand with your ability to make everyone confident and calm at your presence is something I will aspire to be – as a scientist, and, more importantly, as a person.
 
 \vspace{5mm}
 
-Have fun! :)
+I would like to send my next round of acknowledgements far away from where I currently am. I am thanking my family in Russia, in particular, my mom and my grandparents, for unconditional love and support. I am thankful to my friends, Katya and Max, for making me feel their presence even thousands kilometers away and for Zoom drinks and night chats. I would also like to express my gratitude to my former colleagues at the Center for Language and Brain in Moscow, especially, to Dr. Svetlana Malyutina, for supporting and guiding me through all these years.
+
+\vspace{5mm}
+
+I thank my partner, Gabriele, with all my heart, for his love and patience through these challenging times. Your support means the world to me.
+
+\vspace{5mm}
+
+To conclude, I would like to thank the professors at CIMeC for having taught us so many things and for showing that brain is truly fascinating. Having had this opportunity was something that shaped my future in many different – and, undoubtedly, beautiful – ways, and for that I am forever grateful. 
+
 
 
