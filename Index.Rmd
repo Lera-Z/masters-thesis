@@ -16,6 +16,8 @@ degreename: Master's Degree in Cognitive Science
 academicyear: Academic year 2020 - 2021
 advisorname: Prof. Davide Zoccolan
 coadvisorname: Prof. Giorgio Vallortigara
+abstract: |
+  `r paste(readLines("extra/_Abstract.Rmd"), collapse = '\n  ')`
 acknowledgements: |
   `r paste(readLines("extra/_Acknowledgements.Rmd"), collapse = '\n  ')`
 dedication: false
@@ -39,7 +41,7 @@ bibliography-heading-in-pdf: References
 #####################
 ## PDF formatting  ##
 #####################
-do-abstract: false
+do-abstract: true
 abstractseparate: false  # include front page w/ abstract for examination schools?
 bib-humanities: true   #set to true if you want in-text references formatted as author-year
 doi-in-bibliography: false #set to true if you want DOI's to be shown in the bibliography
