@@ -51,9 +51,9 @@
 
 \newcommand{\upc}[1]{%
   \expandafter\MakeUppercase\expandafter{#1}}
-\newcommand{\candidate}{{Candidato}}
-\newcommand{\advisor}{{Relatore}}
-\newcommand{\coadvisor}{{Correlatore}}
+\newcommand{\candidate}{{Candidate}}
+\newcommand{\advisor}{{Supervisor}}
+\newcommand{\coadvisor}{{Co-supervisor}}
 %
 % DECLARATIONS
 %

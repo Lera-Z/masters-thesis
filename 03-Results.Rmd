@@ -27,12 +27,16 @@ All data analyses were performed in Matlab, except for the receptive field mappi
 
 As a first step, to define whether the recorded multiunits are responsive to visual stimuli, a receptive field mapping was always performed before the main protocol. *Figure* \@ref(fig:RFs) demonstrates the receptive fields of a subset of recorded multiunits in V1, along with the peristimulus time histogram (PSTH) that shows each multiunit's spike counts in a timespan around the presentation of a stimulus.
 
+\vspace{5mm}
+
 ```{r out.width = "100%", fig.align='center', fig.cap="(ref:RFs-capture)", label="RFs", echo=FALSE}
 include_graphics('figures/Figure_17.png') # Path to the figure
 ```
 (ref:RFs-capture) *Top: Receptive field maps of three multiunits. The colors in each squared section of the colorbar correspond to the amoung of spikes that a particular multiunit produced for the stimulus shown in this section of the monitor. Bottom: PSTH of the presented multiunits. A red dashed line indicates the onset of a stumulus.*
 
-Neurons in V1 are responsive to low-level visual properties, such as position and orientation. The yellow-colored portions of receptive fields observed for each multiunit, in principle, correspond to a screen position of a stimulus preferred by this multiunit. However, access to V1 is less challenging due to its anatomical position at the top of the ventral stream hierarchy. Therefore, the receptive field mapping in V1 acts mostly as a way to make sure the brain activity is evoked by the stimulus, and that the receptive field of the neurons in question indeed covers a part of the screen. On the contrary, when we move to a higher visual area, LL, looking at receptive fields is an important step to make sure that the electrode is (at least, in part) indeed located in the area LL. It is done by manually observing whether the movement of the receptive field progresses from the left to the right side of the screen (*Figure* \@ref(fig:RFsLL), top), which is a distinctive feature of LL receptive field (*Figure* \@ref(Progression)).
+Neurons in V1 are responsive to low-level visual properties, such as position and orientation. The yellow-colored portions of receptive fields observed for each multiunit, in principle, correspond to a screen position of a stimulus preferred by this multiunit. However, access to V1 is less challenging due to its anatomical position at the top of the ventral stream hierarchy. Therefore, the receptive field mapping in V1 acts mostly as a way to make sure the brain activity is evoked by the stimulus, and that the receptive field of the neurons in question indeed covers a part of the screen. On the contrary, when we move to a higher visual area, LL, looking at receptive fields is an important step to make sure that the electrode is (at least, in part) indeed located in the area LL. It is done by manually observing whether the movement of the receptive field progresses from the left to the right side of the screen (*Figure* \@ref(fig:RFsLL), *top*), which is a distinctive feature of LL receptive field (*Figure* \@ref(fig:Progression)).
+
+\vspace{5mm}
 
 ```{r out.width = "100%", fig.align='center', fig.cap="(ref:RFsLL-capture)", label="RFsLL", echo=FALSE}
 include_graphics('figures/Figure_18.png') # Path to the figure
@@ -43,18 +47,18 @@ For each of the 6 recording sessions it was ensured that multiunit activity is e
 
 ## Individual multiunit responses
 
-We developed a simple graphic interface that allowed us to explore in detail the characteristics of the response of each of the recorded multiunit. Once a unit is selected the interface shows a global graph summarizing the neural responses for every stimulus (example in *Figure* \@ref(fig:GlobalResp), V1 (top left) and LL (bottom left) and the tuning curve of the neuron for the different intensity levels of each statistic (example in *Figure* \@ref(fig:GlobalResp), V1 (top right) and LL (bottom right)).
+We developed a simple graphic interface that allowed us to explore in detail the characteristics of the response of each of the recorded multiunit. Once a unit is selected the interface shows a global graph summarizing the neural responses for every stimulus (example in *Figure* \@ref(fig:GlobalResp), V1 (*top left*) and LL (*bottom left*) and the tuning curve of the neuron for the different intensity levels of each statistic (example in *Figure* \@ref(fig:GlobalResp), V1 (*top right*) and LL (*bottom right*)).
 
 ```{r out.width = "100%", fig.align='center', fig.cap="(ref:GlobalResp-capture)", label="GlobalResp", echo=FALSE}
 include_graphics('figures/Figure_19.png') # Path to the figure
 ```
-(ref:GlobalResp-capture) *Left column: A global graph representing the activity of multiunits from V1 (top) and LL (bottom) for every stimulus. The X-axis denotes stimulus ID, the Y-axis – spike count (averaged across trials); Right column: A sample tuning curve of the neuron for the different intensity levels of each statistic.  The red line indicates a tuning curve, and the blue line – a linear approximation of the tuning curve to indicate a trend. A dashed blue line indicates background activity level.*
+(ref:GlobalResp-capture) *Left column: A global graph representing the activity of multiunits from V1 (top) and LL (bottom) for every stimulus. The X-axis denotes stimulus ID, the Y-axis – spike count (averaged across trials); Right column: A sample tuning curve of the neuron for the different intensity levels of each statistic.  The red line indicates a tuning curve. A dashed blue line indicates background activity level.*
 
 In the sample tuning curves above we could already observe a strong tendency for increasing selectivity to a gamma statistic for both V1 and LL multiunits.  
 
 \vspace{5mm}
 
-Selecting one of the columns corresponding to a stimulus in the global graph presented above  shows the multiunit activity for the texture that elicited that response, along with the corresponding texture. In particular, for a specific stimulus we present both the raster plot showing the activity across trials and the PSTH obtained from the raster by binning the time window and averaging the number of spikes across trials that fall in each time bin. In *Figure* \@ref(fig:TextureAct) we present an example for a V1 neuron (top left) and an example  for an LL neuron (bottom left) along with the corresponding stimuli that elicited the response (top and bottom right).
+Selecting one of the columns corresponding to a stimulus in the global graph presented above  shows the multiunit activity for the texture that elicited that response, along with the corresponding texture. In particular, for a specific stimulus we present both the raster plot showing the activity across trials and the PSTH obtained from the raster by binning the time window and averaging the number of spikes across trials that fall in each time bin. In *Figure* \@ref(fig:TextureAct) we present an example for a V1 neuron (*top left*) and an example  for an LL neuron (*bottom left*) along with the corresponding stimuli that elicited the response (*top and bottom right*).
 
 ```{r out.width = "100%", fig.align='center', fig.cap="(ref:TextureAct-capture)", label="TextureAct", echo=FALSE}
 include_graphics('figures/Figure_20.png') # Path to the figure
@@ -64,13 +68,14 @@ include_graphics('figures/Figure_20.png') # Path to the figure
 ## Global properties of multiunit populations
 
 Before describing the tuning properties of neuronal populations, we performed a broad analysis of the general properties of the recorded multiunits. In particular, we calculated firing rate _**sparseness**_, which is a measure characterizing how selective a neuron (or, in our case, a multiunit) is to a particular type of stimulus. A high degree of sparseness would imply that a given a set of stimuli, the cell responds strongly only to a small subset. On the contrary, if a multiunit responds to many stimuli it is said to be broadly tuned, pointing towards a distributed representation and lower selectivity for a particular kind of stimuli. Sparseness was calculated using the definition of Vinje and Gallant [@Vinje2000-wh]:
-$$S = \left(1 - \frac{1}{N}\frac{(\sum_i r_i)^2}{\sum_i r_i^2}\right)\big/\left(1-\frac{1}{N}\right)$$
 
+$$S = \left(1 - \frac{1}{N}\frac{(\sum_i r_i)^2}{\sum_i r_i^2}\right)\big/\left(1-\frac{1}{N}\right)$$
+\noindent
 where ri is the response to the ith texture averaged across trials and N is the number of textures.
 
 \vspace{5mm}
 
-*Figure* \@ref(fig:Sparse) shows sparseness for each multiunit in V1 (top) and LL (bottom), while Figure 19B shows sparseness for each of the four image statistics for V1 (top) and LL (bottom).
+*Figure* \@ref(fig:Sparse) shows sparseness for each multiunit in V1 (*top*) and LL (*bottom*), while Figure 19B shows sparseness for each of the four image statistics for V1 (*top*) and LL (*bottom*).
 
 ```{r out.width = "100%", fig.align='center', fig.cap="(ref:Sparse-capture)", label="Sparse", echo=FALSE}
 include_graphics('figures/Figure_21.png') # Path to the figure
@@ -121,26 +126,23 @@ Unlike gamma and beta, neither V1 nor LL was highly sensitive to theta correlati
 
 \vspace{5mm}
 
-*Figure* \@ref(AlphaTC)  demonstrates a summary of tuning curve trends in the last, alpha statistic (4-point correlation).
 ```{r out.width = "80%", fig.align='center', fig.cap="(ref:AlphaTC-capture)", label="AlphaTC", echo=FALSE}
 include_graphics('figures/Figure_25.png') # Path to the figure
 ```
 (ref:AlphaTC-capture) *Top: Tuning curves for selective multiunits in area V1 divided by trend and the number of multiunits belonging to each trend group. Middle: Tuning curves for selective multiunits in area LL divided by trend and the number of multiunits belonging to each trend group. Bottom: Overall number of selective multiunits for areas V1 and LL.*
 
-We found low sensitivity to alpha statistic and predominantly stable tuning curve trends in V1. On the contrary, LL, as expected, showed higher sensitivity to alpha with a decreasing slope towards higher levels of a statistic. However, overall, the amount of selective multiunits for both V1 and LL was low (13 multiunits in V1 and 34 - in LL).
+*Figure* \@ref(fig:AlphaTC)  demonstrates a summary of tuning curve trends in the last, alpha statistic (4-point correlation). We found low sensitivity to alpha statistic and predominantly stable tuning curve trends in V1. On the contrary, LL, as expected, showed higher sensitivity to alpha with a decreasing slope towards higher levels of a statistic. However, overall, the amount of selective multiunits for both V1 and LL was low (13 multiunits in V1 and 34 - in LL). An overview of V1 and LL selectivity is presented in *Figure* \@ref(fig:AlphaTC).
 
 \vspace{5mm}
 
-An overview of V1 and LL selectivity is presented in *Figure* \@ref(fig:AlphaTC).
 
-*Figure* \@ref(fig:Summary)  demonstrates a summary of tuning curve trends in the last, alpha statistic (4-point correlation).
 
 ```{r out.width = "100%", fig.align='center', fig.cap="(ref:Summary-capture)", label="Summary", echo=FALSE}
 include_graphics('figures/Figure_26.png') # Path to the figure
 ```
 (ref:Summary-capture) *Overall number of selective multiunits in V1 (left) and LL (right), normalized by the total number of recording channels (n = 64).*
 
-*Figure* \@ref(fig:Summary) shows that, overall, V1 selectivity resembles the rank-order obtained in the previously reviewed studies on human and rat sensitivity to multipoint correlations: *gamma > beta > alpha > theta*. LL selectivity differs from that rank-order in its slightly enhanced sensitivity to the alpha statistic. 
+*Figure* \@ref(fig:Summary)  demonstrates a summary of tuning curve trends in the last, alpha statistic (4-point correlation). *Figure* \@ref(fig:Summary) shows that, overall, V1 selectivity resembles the rank-order obtained in the previously reviewed studies on human and rat sensitivity to multipoint correlations: *gamma > beta > alpha > theta*. LL selectivity differs from that rank-order in its slightly enhanced sensitivity to the alpha statistic. 
 
 ## Decoding analysis
 
@@ -158,9 +160,9 @@ include_graphics('figures/Figure_28.png') # Path to the figure
 ```
 (ref:Neurometric-capture) *Schematic representation of a neurometric curve obtained for each of the four statistics.*
 
-For the current analysis, only multiunits selective for the respective statistic in each area were used. In *Figure* \@ref(fig:Decoding) we show the decoding results for areas V1 (top) and LL (bottom).
+For the current analysis, only multiunits selective for the respective statistic in each area were used. In *Figure* \@ref(fig:Decoding) we show the decoding results for areas V1 (*top*) and LL (*bottom*).
 
-```{r out.width = "100%", fig.align='center', fig.cap="(ref:Decoding-capture)", label="Decoding", echo=FALSE}
+```{r out.width = "85%", fig.align='center', fig.cap="(ref:Decoding-capture)", label="Decoding", echo=FALSE}
 include_graphics('figures/Figure_29.png') # Path to the figure
 ```
 (ref:Decoding-capture) *Decoding results for areas V1 (top) and LL (bottom). The thick line corresponds to the neurometric curve for a statistic in question. A thin line denotes the performance of the best texture-noise pair at every level of the statistic and acts as the upper bound of the area decoding ability. Grey shaded area shows the performance with shuffled labels and acts as the random classification threshold.*
