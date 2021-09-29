@@ -1,13 +1,20 @@
-Previous theoretical and experimental research demonstrated that human sensitivity to image statistics – in particular, to correlations between one to four points - follows the variability of these statistics in natural environments. However, the neural basis of such sensitivity ranking in the brain has not been identified yet. It has been proposed that brain selectivity to three- and four-point correlations might be stronger in higher visual areas than in primary visual cortex.
+Previous theoretical and experimental research demonstrated that both human and rat sensitivity to image statistics – in particular, to multipoint correlations between one to four points - follows the variability of these statistics in natural environment as expected in the efficient coding framework. However, the neural basis of such sensitivity ranking in the brain has not been identified yet. It has been proposed that brain selectivity to three- and four-point correlations in primates emerges only in higher visual areas and is not found in primary visual cortex. The current work employs the advantages of the rat visual system model to investigate where in the brain such sensitivity to higher-image statistics occurs. 
+
 
 \vspace{5mm}
 
-The current work employs the advantages of the rat visual system model to investigate where in the brain such sensitivity to higher-image statistics occurs. Correlations of up to four points were controlled in a set of textures, which are a specific type of stimuli that allows to fix a selected image statistic at a particular level while randomizing all other statistical properties. Six awake anesthetized Long-Evans rats were presented with textures and white noise stimuli, while the activity of two brain areas - V1 (primary visual cortex) and LL (laterolateral area) - was recorded.
+To test correlations of up to four points, maximum entropy textures (MET) were used.  MET are a specific type of stimuli that allows to fix a selected image statistic at a particular level while randomizing all other statistical properties. Six awake anesthetized Long-Evans rats were presented with textures and white noise stimuli, while the activity of two brain areas - either V1 (primary visual cortex) or LL (laterolateral area) at a time - was recorded.
+
 
 \vspace{5mm}
 
-Quantitative analysis of multiunits' properties and decoding analysis demonstrated that area V1 is sensitive to one-point correlations and shows a trend towards sensitivity to two-point correlations, but not to three- and four-point ones. Area LL is selective to one-point and four-point correlations and shows a trend towards sensitivity to three-point correlations. 
+Quantitative analysis of multiunits’ properties and decoding analysis demonstrated that
+area V1 is sensitive to one-point correlations and shows a trend towards sensitivity to two-point
+correlations, but not to three- and four-point ones. Area LL is found to be selective to one-point and
+four-point correlations and shows a trend towards sensitivity to two-point correlations, while no  sensitivity for 3-point correlations emerged.
+
 
 \vspace{5mm}
 
-These findings partially confirm our hypothesis regarding V1 and LL sensitivity to multipoint correlations. Further evidence and data analysis modifications, however, are needed to draw more reliable conclusions. Overall, the current findings add to an emerging body of research on visual perception and have implications for both computational models and theories, and practical challenges, such as the creation and enhancement of human-computer interfaces.
+These findings partially confirm the hypothesis. V1 is found to be sensitive to lower-order correlations (1-, 2-point correlations) but not higher-order correlations, as expected. LL shows selectivity for 4-point correlations (although lower than expected) but not for 3-point correlations, which supports the initial claim only in part. Further evidence and data analysis improvements, however, are needed to draw more reliable conclusions. Overall, the current findings add to an emerging body of research on visual perception and have implications for both computational models and theories regarding efficient coding and the adaptation of the visual system to the statistical properties of natural environments.
+

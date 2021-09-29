@@ -78,7 +78,7 @@ include_graphics('figures/Figure_15.png') # Path to the figure
 
 \vspace{5mm}
 
-Sparse noise movies were stimuli that consisted of a quick alternation between black and white static squares in different positions of the screen on a gray background. Neuronal responses to sparse noise movies have not been analysed in the current work, but they will offer the possibility to discriminate between complex and simple cells in V1, because simple cells’  receptive fields should show a pattern of activity that differs in response to the black or white checks, while complex cells respond to a variety of stimuli across different locations.
+Sparse noise movies were stimuli that consisted of a quick alternation between black and white static squares in different positions of the screen on a gray background. Neuronal responses to sparse noise movies have not been analysed in the current work, but they will offer the possibility to discriminate between complex and simple cells in V1. Simple cells’ receptive fields have a clear distinction between excitatory and inhibitory regions in response to light,as well as summation properties: light shone across a larger region of either division results in a greater change in firing rate than light shone across a smaller region. Complex cells' responses, on the contrary, are more complex and cannot be predicted in a straighforward manner from their receptive fields' organisation.
 
 \vspace{5mm}
 
