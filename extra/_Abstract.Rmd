@@ -11,10 +11,10 @@ To test correlations of up to four points, maximum entropy textures (MET) were u
 Quantitative analysis of multiunits’ properties and decoding analysis demonstrated that
 area V1 is sensitive to one-point correlations and shows a trend towards sensitivity to two-point
 correlations, but not to three- and four-point ones. Area LL is found to be selective to one-point and
-four-point correlations and shows a trend towards sensitivity to two-point correlations, while no  sensitivity for 3-point correlations emerged.
+four-point correlations and shows a trend towards sensitivity to two-point correlations, while no  sensitivity for three-point correlations emerged.
 
 
 \vspace{5mm}
 
-These findings partially confirm the hypothesis. V1 is found to be sensitive to lower-order correlations (1-, 2-point correlations) but not higher-order correlations, as expected. LL shows selectivity for 4-point correlations (although lower than expected) but not for 3-point correlations, which supports the initial claim only in part. Further evidence and data analysis improvements, however, are needed to draw more reliable conclusions. Overall, the current findings add to an emerging body of research on visual perception and have implications for both computational models and theories regarding efficient coding and the adaptation of the visual system to the statistical properties of natural environments.
+These findings partially confirm the hypothesis: V1 is found to be sensitive to lower-order correlations (one-, two-point correlations) but not higher-order correlations, as expected. LL shows selectivity for four-point correlations (although lower than expected) but not for three-point correlations, which supports the initial claim only in part. Further evidence and data analysis improvements, however, are needed to draw more reliable conclusions. Overall, the current findings add to an emerging body of research on visual perception and have implications for both computational models and theories regarding efficient coding and the adaptation of the visual system to the statistical properties of natural environments.
 
